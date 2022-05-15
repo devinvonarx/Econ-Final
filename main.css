@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-* {
+ * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -47,7 +47,7 @@ body {
   text-decoration: none;
 }
 
-.nav__link.active,
+.nav__link.linedNav,
 .nav__link:hover {
   background-color: black;
   color: white;
@@ -95,6 +95,10 @@ body {
     animation: expand 0.5s ease forwards;
   }
 
+  .container { 
+      margin: 2%;
+  }
+
   .crossword {
     margin: 1em auto;
     position: relative;
@@ -130,7 +134,7 @@ body {
     display: block;
     margin-top: 100%;
   }
-  .grid-square.active {
+  .grid-square.lined {
     border: 2px solid black;
   }
   .grid-square.current-word {
@@ -178,7 +182,7 @@ body {
     font-weight: normal;
     cursor: pointer;
   }
-  .crossword-clues li.active {
+  .crossword-clues li.lined {
     background: #ffff99;
   }
   .crossword-clues li.correct {
@@ -186,7 +190,7 @@ body {
     color: green;
     text-decoration: line-through;
   }
-  .crossword-clues li.correct.active {
+  .crossword-clues li.correct.lined {
     background: #dff082;
   }
   .crossword-clues li.correct label:before {

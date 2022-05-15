@@ -1,4 +1,4 @@
-// active navbar link
+// lined navbar link
 const sections = document.querySelectorAll(".section");
 
 window.addEventListener("scroll", function (event) {
@@ -9,11 +9,11 @@ window.addEventListener("scroll", function (event) {
     let id = section.getAttribute("id");
 
     if (top >= offset && top < offset + height) {
-      document.querySelectorAll(".active").forEach((a) => {
-        a.classList.remove("active");
+      document.querySelectorAll(".linedNav").forEach((a) => {
+        a.classList.remove("linedNav");
       });
 
-      document.querySelector("[href*=" + id + "]").classList.add("active");
+      document.querySelector("[href*=" + id + "]").classList.add("linedNav");
     }
   });
 });
@@ -98,7 +98,7 @@ for (i=0;i<words.length;i++) {
                 }
                 $input.data('letter',words[i].answer[j]);
                 $input.appendTo($square);
-            $square.addClass('active');
+            $square.addClass('lined');
         } else {
             var $input = $square.find('input');
                 $input.attr('title',$input.attr('title')+'; '+title);
@@ -177,15 +177,15 @@ $('input.letter').on('focus',function(){
     $current[0].setSelectionRange(0, 10);
     getDirection($current);
     $('[data-'+direction+'='+$current.data(direction)+']').parent('.grid-square').addClass('current-word');
-    $('.crossword-clues li').removeClass('active');
-    $('.crossword-clues li[data-direction='+direction+'][data-clue='+$(this).data(direction)+']').addClass('active');
+    $('.crossword-clues li').removeClass('lined');
+    $('.crossword-clues li[data-direction='+direction+'][data-clue='+$(this).data(direction)+']').addClass('lined');
     $clueTooltip.css({'left':tooltipPosition($current).left+'px','top':tooltipPosition($current).top-10+'px'}).removeClass('invisible').find('.clue-tooltip-arrow').css('left',tooltipPosition($current).offset+'px');
 })
 
 // When a square is blurred, remove highlight from squares and clue
 $('input.letter').on('blur',function(){
     $('.grid-square').removeClass('current-word');
-    $('.crossword-clues li').removeClass('active');
+    $('.crossword-clues li').removeClass('lined');
     $clueTooltip.addClass('invisible');
 })
 
@@ -287,7 +287,7 @@ function checkWord($current) {
             $('.crossword-clues li[data-direction=down][data-clue='+currentWord+']').removeClass('correct');
         }
     }
-    if ($('.grid-square.active:not([class*=correct])').length == 0 && !successShown) {
+    if ($('.grid-square.lined:not([class*=correct])').length == 0 && !successShown) {
         $('#success-modal').modal();
         successShown = true;
     }
@@ -296,7 +296,7 @@ function checkWord($current) {
 // Return the input of the first letter of the next word in the clues list
 function getNextWord($current) {
     var length = $('.crossword-clues li').length;
-    var index = $('.crossword-clues li').index($('.crossword-clues li.active'));
+    var index = $('.crossword-clues li').index($('.crossword-clues li.lined'));
     var nextWord;
     if (index < length-1) {
         $nextWord = $('.crossword-clues li').eq(index+1);
@@ -310,7 +310,7 @@ function getNextWord($current) {
 // Return the input of the first letter of the previous word in the clues list
 function getPrevWord($current) {
     var length = $('.crossword-clues li').length;
-    var index = $('.crossword-clues li').index($('.crossword-clues li.active'));
+    var index = $('.crossword-clues li').index($('.crossword-clues li.lined'));
     var prevWord;
     if (index > 0) {
         $prevWord = $('.crossword-clues li').eq(index-1);
