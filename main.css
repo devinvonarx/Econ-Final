@@ -15,6 +15,19 @@ body {
   scroll-behavior: smooth;
 }
 
+.circleContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.circles {
+    background-color: aqua;
+    height: 25vw;
+    width: 25vw;
+    border-radius:100%;
+    margin: 3vw;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -88,7 +101,8 @@ body {
       text-align: center;
       width: 35vw;
       padding: 2vw 0;
-
+      margin-top: 12vw;
+    margin-bottom: 2vw;
     }
   
   .gradient-text:hover {
