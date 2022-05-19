@@ -20,12 +20,26 @@ body {
     justify-content: space-around;
 }
 
+.textContainer{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+}
+
+p{
+  text-align: center;
+}
+
 .circles {
     background-color: #BAABDA;
     height: 25vw;
     width: 25vw;
     border-radius:100%;
     margin: 3vw;
+}
+
+.text{
+  width: 50%;
 }
 
 .navbar {
@@ -77,6 +91,7 @@ body {
 .section:nth-child(odd) {
   background-color: rgb(235, 235, 235);
 }
+
 
 .gradient-text {
     color: transparent;
