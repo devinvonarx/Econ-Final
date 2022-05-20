@@ -26,8 +26,20 @@ body {
   margin: 2%;
 }
 
+.triangle{
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #FFCBCB;
+}
+
 p{
   text-align: center;
+}
+
+.vertically-align{
+  margin-top: 40%;
 }
 
 .circles {
@@ -36,6 +48,10 @@ p{
     width: 25vw;
     border-radius:100%;
     margin: 3vw;
+}
+
+#history{
+  min-height: 200vh;
 }
 
 .text{
