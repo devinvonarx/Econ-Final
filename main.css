@@ -176,6 +176,7 @@ p{
     margin: 1em auto;
     position: relative;
     font-family: sans-serif;
+    width:80%;
   }
   .crossword-clues {
     font-size: 14px;
