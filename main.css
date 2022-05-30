@@ -86,6 +86,22 @@ p{
   margin: 2%;
 }
 
+h1{
+  margin-top: 2%;
+}
+
+.websites{
+  text-align:left;
+  text-indent:-2cm;
+  margin-left:10%;
+  width:90%;
+}
+
+.one-liner{
+  margin-left:3%;
+}
+
+
 h2{
   text-align: center;
   margin:2%;
