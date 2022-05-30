@@ -44,15 +44,15 @@ var words = [
     {number:22,direction:'down',row:18,column:9,clue:'Second most common word in crossword puzzles',answer:'area',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
     {number:23,direction:'across',row:18,column:16,clue:'Crossword puzzle champions are mental ___.',answer:'athlete',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
     {number:24,direction:'across',row:19,column:8,clue:'The rule that crossword puzzles need to be symetrical is rarely ___.',answer:'broken',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
-    {number:25,direction:'down',row:20,column:15,clue:'First editor of the New York Times crossword puzzle.',answer:'Farrar',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
-    {number:26,direction:'across',row:21,column:11,clue:'She gets all women’s teams ramped up',answer:'bella',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
-    {number:26,direction:'down',row:21,column:11,clue:'We are True ___',answer:'blue',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
-    {number:27,direction:'down',row:21,column:13,clue:'Celebrating 50 years on campus',answer:'library',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
-    {number:28,direction:'across',row:21,column:19,clue:'Oldest residence hall on campus',answer:'carr',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
-    {number:29,direction:'down',row:21,column:20,clue:'New College of Health and Human Services Building',answer:'archer',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
-    {number:30,direction:'down',row:21,column:22,clue:'Brothers & sisters, faculty & staff',answer:'ramfam',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
+    {number:25,direction:'down',row:20,column:15,clue:'First editor of the New York Times crossword puzzle.',answer:'farrar',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
+    {number:26,direction:'across',row:21,column:11,clue:'Crossword ___ of the 1920s led to crossword puzzle pop songs, crossword puzzle broadway shows, and crossword puzzle sermons declaring the game the mark of a childish mentality.',answer:'mania',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
+    {number:26,direction:'down',row:21,column:11,clue:'Original co-publisher of The New York Times puzzle app.',answer:'magmic',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
+    {number:27,direction:'down',row:21,column:13,clue:'Hopefully, Jean Sherman, the first person to use The New York Times crossword puzzle to propose, is still living in ___ bliss.',answer:'nuptial',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
+    {number:28,direction:'across',row:21,column:19,clue:'A Sunday crossword puzzle is 21 squares tall by 21 squares ___.',answer:'wide',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
+    {number:29,direction:'down',row:21,column:20,clue:'When solving a crossword puzzle, do not ___ the title, as it often provides hints.',answer:'ignore',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
+    {number:30,direction:'down',row:21,column:22,clue:'American crossword puzzles have more overlapping words and thus more white spaces than crossword puzzles from ___.',answer:'england',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
     {number:31,direction:'across',row:22,column:3,clue:'Many people ___ to complete the Saturday crossword puzzle, but most people only solve the Monday one.',answer:'aspire',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'},
-    {number:32,direction:'across',row:22,column:15,clue:'Not for shopping but walking',answer:'mall',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'}
+    {number:32,direction:'across',row:22,column:15,clue:'In what type of weather would you prefer to curl up indoors and do a crossword puzzle?',answer:'rain',hint:'https://www.gamesver.com/21-facts-about-crossword-puzzles-you-probably-didnt-know/'}
 ];
 
 // Set global variables
