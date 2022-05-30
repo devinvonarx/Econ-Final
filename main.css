@@ -26,6 +26,12 @@ body {
   padding-top: 61.25%;
 }
 
+.resp-container2 {
+  position: relative;
+  overflow: hidden;
+  padding-top: 110%;
+}
+
 .resp-iframe {
   position: absolute;
   top: 0;
@@ -41,6 +47,32 @@ body {
   margin: 2%;
 }
 
+.textContainer2{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  width: 50%;
+  background-color:#BAABDA;
+}
+
+.experiment{
+  width:100%;
+  border-radius: 50%;
+  margin-top:20%;
+}
+
+.textContainer3{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  width: 100%;
+}
+
+.square{
+  background-color:blue;
+  height: 100%;
+}
+
 .triangle{
   width: 0;
   height: 0;
@@ -52,6 +84,11 @@ body {
 p{
   text-align: center;
   margin: 2%;
+}
+
+h2{
+  text-align: center;
+  margin:2%;
 }
 
 .vertically-align{
@@ -72,6 +109,7 @@ p{
 
 #circle2{
   background-color: #F7D1BA;
+  margin-top:-5%;
 }
 
 #circle3{
